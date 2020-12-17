@@ -1,0 +1,78 @@
+img {
+    height: 50px;
+    width: auto;
+}
+
+body {
+    background-color: tan;
+}
+
+/* FONT */
+@font-face {
+    font-family: pixel;
+    src: url(./assets/Pokemon\ Classic.ttf)
+}
+
+.headingContainer {
+    height: 25%;
+    width: 75%;
+    text-align:center;
+    position: absolute;
+    top:25%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    margin:0;
+}
+
+.squirtlePokeball {
+    height: 25%;
+    text-align:center;
+    position: absolute;
+    top:50%;
+    left:25%;
+    transform: translate(-50%, -50%);
+    margin:0;
+}
+
+.bulbasaurPokeball {
+    height: 25%;
+    text-align:center;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    margin:0;
+}
+
+.charmanderPokeball {
+    height: 25%;
+    text-align:center;
+    position: absolute;
+    top:50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    margin:0;
+}
+
+.buttonContainer {
+    height: 10%;
+    text-align:center;
+    position: absolute;
+    top:75%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    margin:0;
+}
+
+.reset {
+    background-color: #494746;
+    color: white;
+    border-color: black;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size:1.2rem;
+}
+
+html {
+    font-size: 14px;
+}
